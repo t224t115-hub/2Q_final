@@ -1,1 +1,0 @@
-import{n as e,t}from"./leaflet-CP5CNYXB.js";var n=e(t(),1),r=n.default.map(`map`).setView([35.0116,135.7681],13);n.default.tileLayer(`https://tile.openstreetmap.org/{z}/{x}/{y}.png`,{attribution:`&copy; OpenStreetMap contributors`}).addTo(r),n.default.marker([35.0116,135.7681]).addTo(r).bindPopup(`京都駅`);
